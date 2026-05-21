@@ -314,3 +314,19 @@ body {
     background-color: #00a5d4;
     color: white;
 }
+
+.vn-indiv {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    margin-bottom: 20px;
+}
+
+.custom-progress {
+    height: 8px;
+    background-color: #718096;
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 10px;
+}
