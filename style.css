@@ -57,7 +57,7 @@ body {
 }
 
 .custom-input {
-    background-color: #c4c4c4 !important;
+    background-color: #c4c4c4;
     border: none;
     border-radius: 20px;
     padding: 10px 20px;
@@ -164,52 +164,6 @@ body {
     border: none;
     box-shadow: 0 4px 15px rgba(0,0,0,0.05);
     padding: 30px;
-}
-
-.subject-card {
-    background: #d6d6d6;
-    border-radius: 20px;
-    padding: 20px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-    transition: transform 0.2s;
-}
-
-.subject-card:hover {
-    transform: translateY(-3px);
-}
-
-.subject-title {
-    font-size: 1.6rem;
-    font-weight: 500;
-    color: #111;
-    margin-bottom: 2px;
-}
-
-.subject-meta {
-    font-size: 0.8rem;
-    color: #555;
-    margin-bottom: 12px;
-}
-
-.subject-img-placeholder {
-    background: #fff url('https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?q=80&w=400') center/cover;
-    height: 90px;
-    border-radius: 8px;
-    margin-bottom: 15px;
-    opacity: 0.85;
-}
-
-.teacher-name {
-    font-size: 0.85rem;
-    color: #444;
-    margin-bottom: 15px;
-}
-
-.progress-bar-flat {
-    height: 8px;
-    background-color: #718096;
-    border-radius: 4px;
-    width: 100%;
 }
 
 .task-card {
@@ -329,4 +283,50 @@ body {
     border-radius: 4px;
     width: 100%;
     margin-top: 10px;
+}
+
+.sidebar {
+    background-color: #1a202c;
+    min-height: 100vh;
+    color: #fff;
+    padding-top: 20px;
+    z-index: 10;
+}
+
+.sidebar .logo-container img {
+    max-width: 65px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+.sidebar-nav {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.sidebar-nav li a {
+    color: #cbd5e0;
+    text-decoration: none;
+    display: block;
+    padding: 12px 25px;
+    font-size: 0.95rem;
+}
+
+/* Notebook Cards Styling */
+.vn-indiv {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 25px;
+    border-radius: 20px !important;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    border: none;
+}
+
+.custom-progress {
+    height: 8px;
+    background-color: #718096;
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 15px;
 }
