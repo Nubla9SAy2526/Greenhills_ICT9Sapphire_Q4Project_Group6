@@ -4,82 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Team</title>
-
-     <!-- BOOTSTRAP-CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-   
-     <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="main.js"></script>
 
-     <div class="d-flex align-items-stretch">
-        
-        <nav class="navbar bg-dark text-light">
-            <!-- LOGO -->
-            <a class="navbar-brand" href="#">
-                <img src="image">
-            </a>
-            <!-- MENU -->
-            <ul class="nav flex-column">
-                <li>Dashboard</li> <a href="#"></a>
-                <li>Virutal Notebooks</li> <a href="#"></a>
-                <li>Tasks</li> <a href="#"></a>
-                <li>Our Team</li> <a href="#"></a>
-                <li>Log Out</li> 
-            </ul>            
-        </nav>
-        
-
-         <div class="title">
-            <center><h1 class="bg-dark text-white">OUR TEAM</h1></center>
-        </div>
-      
-        <div class="division1">
-            <div>
-                
-                <div class="card" style="width:400px">
-                     <img class="card-img-top" src="img_avatar1.png" alt="Card image">
-                     <div class="card-body">
-                     <h4 class="card-title">John Doe</h4>
-                     <p class="card-text">Some example text.</p>
-                     <a href="#" class="btn btn-primary">See Profile</a>
-                 </div>
-                
-
-                 <div class="card" style="width:400px">
-                     <img class="card-img-top" src="img_avatar1.png" alt="Card image">
-                     <div class="card-body">
-                     <h4 class="card-title">John Doe</h4>
-                     <p class="card-text">Some example text.</p>
-                     <a href="#" class="btn btn-primary">See Profile</a>
-                    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 col-lg-2 sidebar px-0">
+                <div class="logo-container px-3 text-center">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135810.png" alt="Logo" class="img-fluid portal-sidebar-logo">
                 </div>
-            
-        </div>
-        <br>
-        <div class="division2">
-            <div class="card" style="width:400px">
-                     <img class="card-img-top" src="img_avatar1.png" alt="Card image">
-                     <div class="card-body">
-                     <h4 class="card-title">John Doe</h4>
-                     <p class="card-text">Some example text.</p>
-                     <a href="#" class="btn btn-primary">See Profile</a>
-                    </div>
+                <ul class="sidebar-nav">
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="notebooks.html">Virtual Notebooks</a></li>
+                    <li><a href="tasks.html">Tasks</a></li>
+                    <li class="active"><a href="profile.html">Our Team</a></li>
+                    <li><a href="index.html">Logout</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-9 col-lg-10 p-5">
+                <div class="mb-4">
+                    <div class="page-title-badge">Our Team</div>
+                    <div class="page-subtitle">ICT 9 Sapphire - Group 6 Members</div>
                 </div>
 
-                <div class="card" style="width:400px">
-                     <img class="card-img-top" src="img_avatar1.png" alt="Card image">
-                     <div class="card-body">
-                     <h4 class="card-title">John Doe</h4>
-                     <p class="card-text">Some example text.</p>
-                     <a href="#" class="btn btn-primary">See Profile</a>
+                <div class="row g-4 col-xl-11">
+                    
+                    <div class="col-md-6">
+                        <div class="team-card d-flex align-items-center">
+                            <div class="team-avatar-box">
+                                <img src="https://lh3.googleusercontent.com/a/ACg8ocLy90KbTQd98JMudAFn0kgtwahbOw9KAkaZQY1IovPA6qPPrg=s88-w88-h88-c-k-no">
+                            </div>
+                            <div class="team-card-info">
+                                <h4 class="card-title">Bonnie Nubla</h4>
+                                <p class="card-text text-muted">Leader</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
+
+                    <div class="col-md-6">
+                        <div class="team-card d-flex align-items-center">
+                            <div class="team-avatar-box">
+                                <img src="https://lh3.googleusercontent.com/a-/ALV-UjWcZfrk3k1F1zkm0WDVQZiFnw5JgvIFKiTTWtYrv2D7NK1GY2D1=s88-w88-h88-c-k-no">
+                            </div>
+                            <div class="team-card-info">
+                                <h4 class="card-title">Adrianna Allas</h4>
+                                <p class="card-text text-muted">Page Designer</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="team-card d-flex align-items-center">
+                            <div class="team-avatar-box">
+                                <img src="https://lh3.googleusercontent.com/a-/ALV-UjV5x-dJSzSk986z-e9kqSQpAOSSZIV6_vHtfZumEn7E3YE2mw68=s88-w88-h88-c-k-no">
+                            </div>
+                            <div class="team-card-info">
+                                <h4 class="card-title">Ashley Mangondato</h4>
+                                <p class="card-text text-muted">Page Designer</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="team-card d-flex align-items-center">
+                            <div class="team-avatar-box">
+                                <img src="https://lh3.googleusercontent.com/chat_attachment/AP1Ws4sgryYO1F5HYW5vN2AukUE_LEWWS68_u1qL_tDcrlctNxXR5PYSyN3Pkm4WAbyAXWBsRdwZcxc3n0s9zIUWd5CrlUqHq4ONCCeCB1ly6LuENaY0knFtHe4M63r8AjiXZF2nvKELcmUl9O-dAVCJ9jjKYyhBPcApg_bFQmBmVkzXmg0salpA4gKbWAS_WduOJyfbyC1lwjB9WMTojuqHCstVeBq8q3y2aI97dZMawxxLVZxC0WiYsxCH8Lzghw1QT7WykR6QVmSJMYIWy7yFLoo4kDFdqoaVyFeHeHi0hsTZ2Fppe4ieNrpj22DkpG5QK38=w512">
+                            </div>
+                            <div class="team-card-info">
+                                <h4 class="card-title">Katharine Peñas</h4>
+                                <p class="card-text text-muted">Profiles</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div> </div>
         </div>
     </div>
- 
-    
+
+    <div class="footer-strip">
+        Katharine Peñas | 9-Sapphire ©2026
+    </div>
 </body>
 </html>
